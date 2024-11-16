@@ -1,24 +1,36 @@
-import logo from './logo.svg';
 import './App.css';
+import Header from "./components/Header";
+import Welcome from './pages/Welcome';  // الصفحة الرئيسية
+import Tody from './pages/Tody';  // صفحة تانية (Tody)
+import React, { useEffect } from 'react';
+import { BrowserRouter as Router, Routes, Route, useLocation } from 'react-router-dom';
 
 function App() {
+  // استخدام useLocation داخل الـ Router
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <AppWithLocation />
+    </Router>
+  );
+}
+
+function AppWithLocation() {
+  const location = useLocation();
+
+  useEffect(() => {
+    const pageTitle = location.pathname.split('/')[1];
+    const title = pageTitle ? `Tody | ${pageTitle.charAt(0).toUpperCase() + pageTitle.slice(1)}` : 'Tody';
+    document.title = title;
+  }, [location]);
+
+  return (
+    <>
+      <Header />
+      <Routes>
+        <Route path="/" element={<Welcome />} />
+        <Route path="/tody" element={<Tody />} />
+      </Routes>
+    </>
   );
 }
 
