@@ -68,7 +68,7 @@ To get this project up and running on your local machine, follow these steps:
 
 3. **Install the dependencies:**
 
-   Ensure **Node.js** is installed on your machine in order to use npm.
+   Ensure **Node.js** is installed on your machine in order to use npm then run:
 
     ```bash
     npm install
