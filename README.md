@@ -81,6 +81,7 @@ To get this project up and running on your local machine, follow these steps:
       │
       ├── tailwind.config.js
       └── package.json
+      └── ...
 
 ## Author
 Created by [Heba AbdElhamed](https://github.com/HebaAbdElhamed).
