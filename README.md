@@ -60,30 +60,27 @@ To get this project up and running on your local machine, follow these steps:
 - You can clear all tasks by clicking the "Delete All" button at the bottom of the list.
 
 ## File Structure
-  ```bash
-  /To-Do-List
-  │
-  ├── /public
-  │   ├── index.html
-  │   └── ...
-  │
-  ├── /src
-  │   ├── /components
-  │   │   ├── Button.js
-  │   │   ├── Header.js
-  │   │   └── ...
-  │   ├── /pages
-  │   │   ├── Tody.js
-  │   │   └── Welcone.js
-  │   ├── App.js
-  │   ├── index.js
-  │   └── ...
-  │
-  ├── tailwind.config.js
-  └── package.json
-  └── ...
+   
+      /To-Do-List
+      │
+      ├── /public
+      │   ├── index.html
+      │   └── ...
+      │
+      ├── /src
+      │   ├── /components
+      │   │   ├── Button.js
+      │   │   ├── Header.js
+      │   │   └── ...
+      │   ├── /pages
+      │   │   ├── Today.js
+      │   │   └── Welcome.js
+      │   ├── App.js
+      │   ├── index.js
+      │   └── ...
+      │
+      ├── tailwind.config.js
+      └── package.json
 
-
-
-
-
+## Author
+Created by [Heba AbdElhamed](https://github.com/HebaAbdElhamed).
