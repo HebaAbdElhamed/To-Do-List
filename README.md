@@ -1,6 +1,6 @@
 # React ToDo List with Tailwind CSS
 
-A modern and responsive ToDo list application built with React. This app allows users to add, edit, and delete tasks. It also includes a feature to delete all tasks at once. The app uses React Hooks (`useState`, `useEffect`) for managing state and side effects, React Router (`useNavigate`, `useLocation`) for navigation, and Tailwind CSS for styling.
+A modern ToDo list application built with React js. This app allows users to add, edit, and delete tasks. It also includes a feature to delete all tasks at once. The app uses React Hooks (`useState`, `useEffect`) for managing state and side effects, React Router (`useNavigate`, `useLocation`) for navigation, and Tailwind CSS for styling.
 
 ![ToDo App Preview](./public/imagePreview.png) <!-- Add path to your image here -->
 
