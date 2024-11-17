@@ -68,16 +68,18 @@ To get this project up and running on your local machine, follow these steps:
 
 3. **Install the dependencies:**
 
+   Ensure **Node.js** is installed on your machine in order to use npm.
+
     ```bash
     npm install
 
-4. **Start the development server:**
+5. **Start the development server:**
 
     ```bash
     npm start
 
-5. **Open your browser and go to http://localhost:3000 to see the app running.**
-6. **Ensure your backend API is running** (Review the backend setup section above).
+6. **Open your browser and go to http://localhost:3000 to see the app running.**
+7. **Ensure your backend API is running** (Review the backend setup section above).
 
 ## Usage
 
